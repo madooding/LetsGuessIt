@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Let\'s guess it</string>
-    <string name="less_text">less</string>
-    <string name="equal_text">equal</string>
-    <string name="greater_text">greater</string>
+    <string name="less_text">&lt;</string>
+    <string name="equal_text">=</string>
+    <string name="greater_text">&gt;</string>
     <string name="result_label">Result</string>
 </resources>
