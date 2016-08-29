@@ -29,7 +29,7 @@ public class ResultActivity extends AppCompatActivity {
             if(result){
                 descTv.setText("Congrat! you\'ve choosed right answer.\nThe secret number is " + Integer.toString(secretNumber));
             }else{
-                descTv.setText("Unfortunately! you\'ve choosed wrong answer.\nThe secret number is " + Integer.toString(secretNumber));
+                descTv.setText("Unfortunately! you\'ve choosed wrong answer.\nThe secret number is " + Integer.toString(secretNumber) + ".");
             }
         } else {
             descTv.setText("Got an Error!");
